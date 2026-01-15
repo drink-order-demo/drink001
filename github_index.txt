@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>餐廳點餐系統</title>
+</head>
+<body>
+
+<h1>🍽 餐廳點餐</h1>
+<p id="tableInfo"></p>
+
+<h2>📋 菜單</h2>
+<ul id="menu"></ul>
+
+<h2>🧾 訂單內容</h2>
+<ul id="orders"></ul>
+<p id="total"></p>
+
+<label>
+  備註：
+  <input type="text" id="note" placeholder="例如：不要香菜">
+</label>
+<br><br>
+
+<button onclick="submitOrder()">送出訂單</button>
+
+<script src="script.js"></script>
+</body>
+</html>
